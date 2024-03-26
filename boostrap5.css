@@ -1,0 +1,55 @@
+
+body{
+	background-image: linear-gradient(to bottom,rgba(32, 31, 31, 0.4), rgba(32, 31, 31, 0.4)), url("img/fond_ecran.jpg");
+	background-size: cover;
+
+}
+
+nav, button {
+	background-color: 
+#490909;
+border: none;
+}
+
+#btn{
+	border: 2px solid white;
+	background-color: white;
+}
+
+#btn1{
+	transform: translateY(15px);
+}
+
+ul li a{
+	color: white;
+	font-weight: bold;
+}
+
+#lorem{
+	transform: translateX(px);
+}
+
+#back{
+	background-color: rgba(133, 32, 12, 0.7);
+}
+
+footer{
+	background-color: #400e04;
+}
+
+/*@media screen and (max-width: 600px){
+.navbar, #back, footer{
+	width: 900px;
+
+}
+}*/
+
+@media screen and (max-width: 850px){
+.navbar, #back, footer{
+	width: 455px;
+	
+}
+
+
+
+}
